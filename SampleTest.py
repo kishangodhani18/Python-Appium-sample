@@ -1,9 +1,12 @@
 from appium import webdriver
 
 desired_caps = {
-    "platformName": "Android",
-    "deviceName": "bhihcjdicubdwijwdbc",
-    "version": "9",
+    "platformName": "<iOS> & <Android>",
+    "platformVersion": "<OS_Version>",
+    "deviceName": "<Device_Name>",
+    "automationName": "<XCUITest>__&__<Appium>",
+    "app": "/path/to/<apk>__<ipa>"
+}
 }
 
 # Create driver and start launch the excution.
